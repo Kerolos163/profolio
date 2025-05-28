@@ -20,6 +20,18 @@ class MyApp extends StatelessWidget {
           titleMedium: Styles.titleMedium,
           bodyMedium: Styles.bodyMedium,
         ),
+        elevatedButtonTheme: ElevatedButtonThemeData(
+          style: ElevatedButton.styleFrom(
+            foregroundColor: Colors.white,
+            backgroundColor: Color(0xFFFF6464),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadiusGeometry.circular(2),
+            ),
+            textStyle: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+            fixedSize: Size(208, 47),
+            padding: EdgeInsets.zero,
+          ),
+        ),
       ),
       home: const HomePage(),
     );
