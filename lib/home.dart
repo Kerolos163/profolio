@@ -29,12 +29,7 @@ class HomePage extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               SizedBox(height: 24),
-              ElevatedButton(
-                onPressed: () {
-                  print("Wesso");
-                },
-                child: Text("Download Resume"),
-              ),
+              ElevatedButton(onPressed: () {}, child: Text("Download Resume")),
             ],
           ),
         ),
